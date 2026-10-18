@@ -60,8 +60,9 @@ def probe(url,timeout):
     content=html.unescape(response["body"]).lower()
     mt=re.search(r"<title[^>]*>(.*?)</title>",response["body"],re.I|re.S)
     title=html.unescape(mt.group(1)).strip()[:100] if mt else ""
-    if code in (404,410): status,why="DEAD_CONFIRMED","HTTP "+str(code)
-    elif gd and any(x in content for x in DEAD): status,why="DEAD_CONFIRMED","Google explicit file-missing/deleted message"
+    if code in (404,410) and gd: status,why="PUBLIC_UNAVAILABLE","HTTP "+str(code)+" (deleted OR not shared publicly)"
+    elif code in (404,410): status,why="DEAD_CONFIRMED","HTTP "+str(code)
+    elif gd and any(x in content for x in DEAD): status,why="PUBLIC_UNAVAILABLE","Google explicit missing/deleted response"
     elif gd and (any(x in content for x in AUTH) or "accounts.google.com" in response["final_url"]):
         status,why="ACCESS_RESTRICTED","Sign-in or permission needed"
     elif code in (401,403,429): status,why="ACCESS_RESTRICTED","HTTP "+str(code)

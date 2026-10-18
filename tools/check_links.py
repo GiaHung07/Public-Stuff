@@ -76,7 +76,7 @@ def paths_to_check(inputs):
         children = [p] if p.is_file() else (p.rglob("*") if p.is_dir() else [])
         for child in children:
             if child.is_file() and child.suffix.lower() in SUFFIXES:
-                if any(part in {".git", ".github", ".venv", "node_modules"} for part in child.parts):
+                if any(part in {".git", ".github", ".venv", "node_modules", "legacy"} for part in child.parts):
                     continue
                 if str(child) not in seen:
                     seen.add(str(child))

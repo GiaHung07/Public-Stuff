@@ -18,6 +18,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 tools/audit_legacy_links.py --scope drive --output legacy-drive-audit.json
+      - name: Install Playwright Chromium
+        run: |
+          python3 -m pip install playwright
+          python3 -m playwright install --with-deps chromium
+      - name: Inspect Google Drive pages in a real browser
+        run: python3 tools/audit_browser_drive.py --input legacy-drive-audit.json --output legacy-drive-browser.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -25,4 +31,5 @@ jobs:
           path: |
             legacy-drive-audit.json
             legacy-drive-audit.md
+            legacy-drive-browser.json
           if-no-files-found: warn

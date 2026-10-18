@@ -2,6 +2,17 @@
 
 [← README](README.md)
 
+## Kiểm tra thực tế trên GitHub Actions (19/10/2026)
+
+**Đã chạy trên GitHub-hosted runner** ở [lượt #39155780262](https://github.com/GiaHung07/Public-Stuff/actions/runs/39155780262):
+
+- **46 link Drive/Docs khác nhau:** gồm 44 link từ README cũ và 2 link từ README con.
+- **13 link trả HTTP 404/410** (12 link 404 và 1 link 410). Điều này chứng minh không truy cập công khai được trong lượt kiểm tra, **không chứng minh chắc file đã bị xóa**, vì quyền chia sẻ Google cũng có thể khiến request trả 404.
+- **33 link trả HTTP 200** nhưng chưa có bằng chứng danh sách file/tài liệu được xem; **không được gắn nhãn còn sống**.
+- Kết quả chi tiết từng link nằm trong artifact `legacy-drive-audit`, gồm JSON và Markdown; chưa kiểm chứng bằng browser đăng xuất trong lượt này.
+
+Dự án đã bổ sung trình kiểm tra phiên bản cũ thay vì chỉ kiểm tra link đã được chọn lọc. Về độ tin cậy, chính trang Google Drive và quyền truy cập cuối cùng vẫn phải xác minh bằng trình duyệt khi kết quả không rõ.
+
 ## Kết quả kiểm kê
 
 - README cũ có 631 dòng và khoảng 259 URL theo mẫu quét phổ biến (bao gồm URL trùng).
