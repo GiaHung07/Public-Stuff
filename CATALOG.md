@@ -139,6 +139,10 @@ Giải thích: OSS = mã nguồn mở; free tier = có hạn mức, không phả
 | [All File Extensions' Meaning.txt](All%20File%20Extensions%27%20Meaning.txt) | Bảng tra cứu extension | Có lỗi nhỏ |
 | [Vps_Google_Colab_with_key_ngrok.ipynb](Vps_Google_Colab_with_key_ngrok.ipynb) | Notebook Colab + ngrok | Không phải VPS 24/7 |
 
+## Google Drive/Docs cũ đã đối chiếu
+
+[**25 link Drive có hàng nội dung hiển thị bằng Chromium/Playwright**](DRIVE-STATUS.md). 1 link Docs có giao diện khả dụng nhưng chưa xác nhận đọc được; 13 link 404/410 không truy cập công khai và 7 link chưa đủ bằng chứng. Tất cả kết quả được phân nhóm cùng URL gốc, không đánh dấu 403/404 là file chắc chắn đã bị xóa.
+
 ## Nguồn đã loại khỏi danh mục hiện hành
 
 - Google Drive/Docs và Google Groups từ năm 2022–2023 chưa thể chứng minh truy cập công khai: [báo cáo](LINK-REVIEW.md).

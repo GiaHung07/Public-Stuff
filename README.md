@@ -6,7 +6,7 @@
 
 Windows · Linux · Android · iOS · AI · Developer · PDF · Media · Network · Self-host
 
-[📚 Danh mục 68 công cụ](CATALOG.md) · [🔎 Báo cáo Drive](LINK-REVIEW.md) · [✅ Quy trình kiểm tra](docs/LINK-CHECKING.md)
+[📚 Danh mục 68 công cụ](CATALOG.md) · [✅ 25 link Drive có nội dung](DRIVE-STATUS.md) · [🔎 Báo cáo cũ](LINK-REVIEW.md) · [✅ Quy trình kiểm tra](docs/LINK-CHECKING.md)
 
 </div>
 
@@ -39,6 +39,11 @@ Windows · Linux · Android · iOS · AI · Developer · PDF · Media · Network
 | [Backup & self-host](CATALOG.md#backup-self-host) | 5 |
 
 👉 **[Mở CATALOG.md để xem link, mô tả, nền tảng và chi phí cho từng công cụ](CATALOG.md)**
+
+## 📁 Drive/Docs được đối chiếu bằng trình duyệt
+
+- [25 thư mục có danh sách nội dung hiển thị](DRIVE-STATUS.md) — không chỉ kiểm tra HTTP 200.
+- [13 link không truy cập công khai, 8 link chưa xác nhận](DRIVE-STATUS.md) — không xóa nhầm dữ liệu cũ.
 
 ## 🔒 Chính sách lọc link
 

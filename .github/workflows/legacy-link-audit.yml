@@ -1,6 +1,10 @@
 name: Audit original links
 on:
   pull_request:
+    paths:
+      - 'tools/audit_legacy_links.py'
+      - 'tools/audit_browser_drive.py'
+      - '.github/workflows/legacy-link-audit.yml'
   workflow_dispatch:
   schedule:
     - cron: '42 3 * * 6'

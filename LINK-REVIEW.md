@@ -4,6 +4,9 @@
 
 ## Kiểm tra thực tế trên GitHub Actions (19/10/2026)
 
+**Đã chạy tiếp Chromium/Playwright**: trong 46 link, **25 hiển thị hàng nội dung**, **1 trang Docs có giao diện tài liệu**, còn **20 chưa kết luận** (13 trong số đó từng trả 404/410). [Xem danh sách đầy đủ đã phân nhóm](DRIVE-STATUS.md) và [runner kiểm tra browser](https://github.com/GiaHung07/Public-Stuff/actions/runs/39156006823).
+
+
 **Đã chạy trên GitHub-hosted runner** ở [lượt #39155780262](https://github.com/GiaHung07/Public-Stuff/actions/runs/39155780262):
 
 - **46 link Drive/Docs khác nhau:** gồm 44 link từ README cũ và 2 link từ README con.
