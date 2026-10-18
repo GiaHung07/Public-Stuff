@@ -1,0 +1,25 @@
+name: Weekly link report
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * 1'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check documentation links
+        run: python3 tools/check_links.py --output link-report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-stuff-links
+          path: link-report.json
+          if-no-files-found: warn
