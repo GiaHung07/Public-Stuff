@@ -1,0 +1,28 @@
+name: Audit original links
+on:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3 * * 6'
+permissions:
+  contents: read
+jobs:
+  drive:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 tools/audit_legacy_links.py --scope drive --output legacy-drive-audit.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: legacy-drive-audit
+          path: |
+            legacy-drive-audit.json
+            legacy-drive-audit.md
+          if-no-files-found: warn
