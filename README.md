@@ -30,13 +30,13 @@ Windows · Linux · Android · iOS · AI · Developer · PDF · Media · Network
 
 | Nhóm | Số mục |
 |---|---:|
-| Windows & Linux | 13 |
-| Android & iOS | 11 |
-| PDF & học tập | 11 |
-| AI, lập trình & API | 13 |
-| DNS & network | 9 |
-| Video, media & IPTV | 6 |
-| Backup & self-host | 5 |
+| [Windows & Linux](CATALOG.md#windows-linux) | 13 |
+| [Android & iOS](CATALOG.md#android-ios) | 11 |
+| [PDF & học tập](CATALOG.md#pdf-hoc-tap) | 11 |
+| [AI, lập trình & API](CATALOG.md#ai-lap-trinh-api) | 13 |
+| [DNS & network](CATALOG.md#dns-network) | 9 |
+| [Video, media & IPTV](CATALOG.md#video-media-iptv) | 6 |
+| [Backup & self-host](CATALOG.md#backup-self-host) | 5 |
 
 👉 **[Mở CATALOG.md để xem link, mô tả, nền tảng và chi phí cho từng công cụ](CATALOG.md)**
 

@@ -1,6 +1,7 @@
 name: Weekly link report
 
 on:
+  pull_request:
   workflow_dispatch:
   schedule:
     - cron: '23 2 * * 1'

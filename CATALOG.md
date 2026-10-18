@@ -6,6 +6,8 @@
 
 Giải thích: OSS = mã nguồn mở; free tier = có hạn mức, không phải miễn phí vô hạn.
 
+<a id="windows-linux"></a>
+
 ## Windows & Linux
 
 | Công cụ | Dùng để làm gì? | Nền tảng | Mức miễn phí |
@@ -24,6 +26,8 @@ Giải thích: OSS = mã nguồn mở; free tier = có hạn mức, không phả
 | [Office Tool Plus](https://www.officetool.plus/) | Tải và triển khai Microsoft Office, không bao gồm license | Windows | Tool miễn phí |
 | [Microsoft Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | Tham khảo công cụ kích hoạt Windows/Office; xem quy định bản quyền | Windows | Dùng có trách nhiệm |
 
+<a id="android-ios"></a>
+
 ## Android & iOS
 
 | Công cụ | Dùng để làm gì? | Nền tảng | Mức miễn phí |
@@ -40,6 +44,8 @@ Giải thích: OSS = mã nguồn mở; free tier = có hạn mức, không phả
 | [TrollStore](https://github.com/opa334/TrollStore) | Cài IPA theo lỗi CoreTrust chỉ trên iOS tương thích | iOS bản cũ | Giới hạn phiên bản |
 | [AltStore](https://altstore.io/) | Sideload ứng dụng iOS bằng ký developer | iOS/Desktop | Có bản miễn phí |
 
+<a id="pdf-hoc-tap"></a>
+
 ## PDF & học tập
 
 | Công cụ | Dùng để làm gì? | Nền tảng | Mức miễn phí |
@@ -55,6 +61,8 @@ Giải thích: OSS = mã nguồn mở; free tier = có hạn mức, không phả
 | [MIT OpenCourseWare](https://ocw.mit.edu/) | Video, bài giảng và giáo trình đại học | Web | Miễn phí |
 | [Project Gutenberg](https://www.gutenberg.org/) | Sách điện tử public-domain | Web | Miễn phí |
 | [Internet Archive](https://archive.org/) | Thư viện số gồm sách/media, có hạn chế với từng tài liệu | Web | Miễn phí một phần |
+
+<a id="ai-lap-trinh-api"></a>
 
 ## AI, lập trình & API
 
@@ -74,6 +82,8 @@ Giải thích: OSS = mã nguồn mở; free tier = có hạn mức, không phả
 | [Vercel](https://vercel.com/) | Triển khai web app và frontend | Cloud | Free tier giới hạn |
 | [Netlify](https://www.netlify.com/) | Triển khai website tĩnh và functions | Cloud | Free tier giới hạn |
 
+<a id="dns-network"></a>
+
 ## DNS & network
 
 | Công cụ | Dùng để làm gì? | Nền tảng | Mức miễn phí |
@@ -88,6 +98,8 @@ Giải thích: OSS = mã nguồn mở; free tier = có hạn mức, không phả
 | [Tailscale](https://tailscale.com/) | Tạo mạng VPN riêng nhiều thiết bị | Đa nền tảng | Có hạn mức free |
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma) | Theo dõi website, API và cảnh báo downtime | Self-host | OSS miễn phí |
 
+<a id="video-media-iptv"></a>
+
 ## Video, media & IPTV
 
 | Công cụ | Dùng để làm gì? | Nền tảng | Mức miễn phí |
@@ -98,6 +110,8 @@ Giải thích: OSS = mã nguồn mở; free tier = có hạn mức, không phả
 | [Jellyfin](https://github.com/jellyfin/jellyfin) | Tự host thư viện phim và video cá nhân | Self-host | OSS miễn phí |
 | [iptv-org](https://github.com/iptv-org/iptv) | Danh sách link kênh truyền hình công khai dạng M3U | M3U | Community miễn phí |
 | [IPTV Vietnam](https://iptv-org.github.io/iptv/countries/vn.m3u) | Playlist M3U kênh Việt Nam, cần thử từng stream | M3U | Community miễn phí |
+
+<a id="backup-self-host"></a>
 
 ## Backup & self-host
 
